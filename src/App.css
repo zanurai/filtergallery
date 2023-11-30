@@ -1,3 +1,28 @@
+body {
+  background-color: black;
+  color: white
+}
+
+.filter {
+  text-align: center;
+}
+
+.filter h2 {
+  font-size: 40px;
+}
+
+.filter input {
+  height: 30px;
+  font-size: 30px;
+  border: none;
+}
+
+.box {
+  display: inline-block;
+  margin: 20px;
+
+}
+
 .App {
   text-align: center;
 }
@@ -32,6 +57,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
